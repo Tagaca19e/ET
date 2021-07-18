@@ -46,7 +46,7 @@ export const Footer = () => {
               theme={theme}
               data-v2="source"
               aria-label="Source code"
-              href="https://github.com/jtagaca12/ET"
+              href="https://github.com/adamalston/v2"
             >
               Source
             </F.Link>

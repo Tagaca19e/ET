@@ -1,7 +1,7 @@
-import React, { useContext } from "react";
-import styled, { css } from "styled-components";
+import React, { useContext } from 'react';
+import styled, { css } from 'styled-components';
 
-import { AppContext } from "./../App/AppContext";
+import { AppContext } from './../App/AppContext';
 
 const sharedStyles = css`
   transition: color 0.5s linear;
@@ -36,16 +36,8 @@ export const Content = () => {
 
   return (
     <div>
-      <C.Name theme={theme} data-v2="name" aria-label="My name is Adam Alston">
-        Eidmone Tagaca
-      </C.Name>
-      <C.Title
-        theme={theme}
-        data-v2="title"
-        aria-label="I am a software engineer"
-      >
-        Software Engineer
-      </C.Title>
+      <C.Name theme={theme} data-v2='name' aria-label='My name is Adam Alston'>Adam Alston</C.Name>
+      <C.Title theme={theme} data-v2='title' aria-label='I am a software engineer'>Software Engineer</C.Title>
     </div>
   );
 };
