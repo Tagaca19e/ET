@@ -64,7 +64,7 @@ export const Content = () => {
         data-v2="title"
         aria-label="I am a software engineer"
       >
-        <Type />
+        Software Engineer
       </C.Title>
     </div>
   );

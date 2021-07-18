@@ -92,12 +92,12 @@ export const Buttons = () => {
   const { theme } = useContext(AppContext);
 
   const DATA = [
-    // {
-    //   href: "https://github.com/adamalston/",
-    //   aria: "Visit my GitHub profile",
-    //   icon: <GitHub />,
-    //   label: "GitHub",
-    // },
+    {
+      href: "https://github.com/adamalston/",
+      aria: "Visit my GitHub profile",
+      icon: <GitHub />,
+      label: "GitHub",
+    },
     {
       href: "https://www.linkedin.com/in/adam-alston/",
       aria: "Visit my LinkedIn profile",
@@ -105,7 +105,13 @@ export const Buttons = () => {
       label: "LinkedIn",
     },
     {
-      href: "mailto:etagaca@csub.edu",
+      href: "https://drive.google.com/drive/folders/10k8NWflSYQ5laPzuWtK3bzUKzuOeas8i/",
+      aria: "Visit Google Drive to view and download my resume",
+      icon: <Resume />,
+      label: "Resume",
+    },
+    {
+      href: "etagaca@csub.edu",
       aria: "Send me an email with this template",
       icon: <Email />,
       label: "Email",

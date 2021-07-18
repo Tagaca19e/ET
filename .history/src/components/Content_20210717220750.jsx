@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import styled, { css } from "styled-components";
 
 import { AppContext } from "./../App/AppContext";
-import Typewriter from "typewriter-effect";
+import Type from "./Type.jsx";
 
 const sharedStyles = css`
   transition: color 0.5s linear;
@@ -32,25 +32,6 @@ const C = {
   `,
 };
 
-function Type() {
-  return (
-    <Typewriter
-      options={{
-        strings: [
-          "A Developer",
-          "A Leader",
-          "A Team Player",
-          "A Hard Worker",
-          "A Problem Solver",
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
-  );
-}
-
 export const Content = () => {
   const { theme } = useContext(AppContext);
 
@@ -64,6 +45,7 @@ export const Content = () => {
         data-v2="title"
         aria-label="I am a software engineer"
       >
+        Software Engineer
         <Type />
       </C.Title>
     </div>

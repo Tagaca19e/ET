@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import styled, { css } from "styled-components";
 
 import { AppContext } from "./../App/AppContext";
-import Typewriter from "typewriter-effect";
 
 const sharedStyles = css`
   transition: color 0.5s linear;
@@ -64,7 +63,7 @@ export const Content = () => {
         data-v2="title"
         aria-label="I am a software engineer"
       >
-        <Type />
+        Software Engineer
       </C.Title>
     </div>
   );
