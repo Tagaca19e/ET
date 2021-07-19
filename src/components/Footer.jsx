@@ -12,6 +12,7 @@ const F = {
     padding-right: ${({ isMobile }) => (isMobile ? "1.5rem" : "1rem")};
     z-index: 1;
   `,
+
   Text: styled.p`
     transition: color 0.5s linear;
     color: ${({ theme }) => theme.tertiaryTextColor};
