@@ -8,7 +8,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <div className="app">
-        <Toggle />
+        {/* <Toggle /> */}
         <Content />
         <Buttons />
         <Footer />

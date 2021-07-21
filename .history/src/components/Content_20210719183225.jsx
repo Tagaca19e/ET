@@ -58,7 +58,7 @@ export const Content = () => {
   return (
     <div>
       <C.Name theme={theme} data-v2="name" aria-label="My name is Adam Alston">
-        Eidmone Tagaca
+        Eidmone Johnson Tagaca
       </C.Name>
       <C.Title
         theme={theme}
