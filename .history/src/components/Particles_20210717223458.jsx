@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
-import styled from "styled-components";
-import { Particles as ReactParticles } from "react-tsparticles";
+import React, { useContext } from 'react';
+import styled from 'styled-components';
+import { Particles as ReactParticles } from 'react-tsparticles';
 
-import { AppContext } from "./../App/AppContext";
+import { AppContext } from './../App/AppContext';
 
 const P = {
   Container: styled.div`
@@ -29,19 +29,19 @@ export const Particles = () => {
         },
       },
       color: {
-        value: ["c912ed", "00bfff", "22dd22", "ffd500", "ff8000", "ff2600"],
+        value: ['c912ed', '00bfff', '22dd22', 'ffd500', 'ff8000', 'ff2600'],
       },
       shape: {
-        type: "square",
+        type: 'circle',
         stroke: {
           width: 0,
-          color: "000",
+          color: '000',
         },
         polygon: {
           nb_sides: 5,
         },
         image: {
-          src: "img/github.svg",
+          src: 'img/github.svg',
           width: 100,
           height: 100,
         },
@@ -72,7 +72,7 @@ export const Particles = () => {
       links: {
         enable: true,
         distance: 75,
-        color: "999",
+        color: '999',
         opacity: 0.9,
         width: 1,
         consent: false,
@@ -81,10 +81,10 @@ export const Particles = () => {
       move: {
         enable: true,
         speed: 2,
-        direction: "none",
+        direction: 'none',
         random: false,
         straight: false,
-        out_mode: "bounce",
+        out_mode: 'bounce',
         bounce: false,
         attract: {
           enable: false,
@@ -94,15 +94,15 @@ export const Particles = () => {
       },
     },
     interactivity: {
-      detect_on: "canvas",
+      detect_on: 'canvas',
       events: {
         onhover: {
           enable: true,
-          mode: "repulse",
+          mode: 'repulse',
         },
         onclick: {
           enable: true,
-          mode: "push",
+          mode: 'push',
         },
         resize: true,
       },
@@ -144,7 +144,7 @@ export const Particles = () => {
 
   return (
     <P.Container theme={theme}>
-      <ReactParticles width="100vw" height="100vh" options={OPTIONS} />
+      <ReactParticles width='100vw' height='100vh' options={OPTIONS} />
     </P.Container>
   );
 };
