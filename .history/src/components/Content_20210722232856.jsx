@@ -94,13 +94,13 @@ export const Content = () => {
       >
         <p1>
           {" "}
-          Hey there👋! I am a passionate self-taught full stack web developer
-          and a computer science student from California 🖥️. My passion for
-          development lies with dreaming up ideas and making them come true 🔨.
-          I am about building cutting-edge and elegant products designed to
-          solve problems.
+          hi, i'm Abhishek Naidu, a passionate self-taught full stack web
+          developer and a freelance software engineer from india. my passion for
+          software lies with dreaming up ideas and making them come true with
+          elegant interfaces. i take great care in the experience, architecture,
+          and code quality of the things I build.
         </p1>
-        {/* <TextLoop interval={3000} delay={2000}>
+        <TextLoop interval={3000} delay={2000}>
           {[
             "Javascript  ",
             "Nodejs      ",
@@ -112,7 +112,7 @@ export const Content = () => {
           ].map((text) => (
             <span key={text}>{text}</span>
           ))}
-        </TextLoop> */}
+        </TextLoop>
       </C.Skills>
     </div>
   );

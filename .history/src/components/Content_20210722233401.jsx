@@ -94,11 +94,10 @@ export const Content = () => {
       >
         <p1>
           {" "}
-          Hey there👋! I am a passionate self-taught full stack web developer
-          and a computer science student from California 🖥️. My passion for
-          development lies with dreaming up ideas and making them come true 🔨.
-          I am about building cutting-edge and elegant products designed to
-          solve problems.
+          Hey there! I am a passionate self-taught full stack web developer and
+          a computer science student from California. My passion for development
+          lies with dreaming up ideas and making them come true. I am about
+          building cutting-edge and elegant products designed to solve problems.
         </p1>
         {/* <TextLoop interval={3000} delay={2000}>
           {[
