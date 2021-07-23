@@ -110,6 +110,12 @@ export const Buttons = () => {
       icon: <Email />,
       label: "Email",
     },
+    {
+      href: "https://www.linkedin.com/in/eidmone-tagaca-6ab45717b/",
+      aria: "Visit my LinkedIn profile",
+      icon: <Instagram />,
+      label: "LinkedIn",
+    },
   ];
 
   return (

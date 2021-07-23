@@ -71,7 +71,7 @@ export const Content = () => {
           data-v2="title"
           aria-label="I am a software engineer"
         />
-        <p1> Hi there </p1>
+        <p1 style="color: white; "> Hi there </p1>
 
         {/* <TextLoop interval={2000} delay={2000}>
           {[

@@ -71,9 +71,9 @@ export const Content = () => {
           data-v2="title"
           aria-label="I am a software engineer"
         />
-        <p1> Hi there </p1>
+        <p1> Hi there</p1>
 
-        {/* <TextLoop interval={2000} delay={2000}>
+        <TextLoop interval={2000} delay={2000}>
           {[
             "Javascript  ",
             "Nodejs      ",
@@ -85,7 +85,7 @@ export const Content = () => {
           ].map((text) => (
             <span key={text}>{text}</span>
           ))}
-        </TextLoop> */}
+        </TextLoop>
       </C.Title>
     </div>
   );

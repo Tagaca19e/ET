@@ -71,22 +71,29 @@ export const Content = () => {
           data-v2="title"
           aria-label="I am a software engineer"
         />
-        <p1> Hi there </p1>
-
-        {/* <TextLoop interval={2000} delay={2000}>
-          {[
-            "Javascript  ",
-            "Nodejs      ",
-            "React       ",
-            "Expressjs   ",
-            "React Native",
-
-            // "Cinema 4D",
-          ].map((text) => (
-            <span key={text}>{text}</span>
-          ))}
-        </TextLoop> */}
       </C.Title>
+      <TextLoop interval={1500} delay={2000}>
+        {[
+          "Javascript",
+          "Typescript",
+          "Nodejs",
+          "React",
+          "Vue",
+          "React Native",
+          "Expo",
+          // "Java",
+          // "Spring",
+          // "WebGL",
+          // "Three.js",
+          "Figma",
+          "Adobe XD",
+          "Photoshop",
+          "Illustrator",
+          // "Cinema 4D",
+        ].map((text) => (
+          <span key={text}>{text}</span>
+        ))}
+      </TextLoop>
     </div>
   );
 };
