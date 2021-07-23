@@ -40,10 +40,7 @@ const C = {
     background: rgba(138, 138, 134, 0.16);
     border-radius: 2rem;
     font-style: bold;
-    padding-top: 2rem;
-    padding-bottom: 0.8rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding: 2rem;
 
     @media only screen and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
       font-size: 1.5rem;
@@ -89,6 +86,7 @@ export const Content = () => {
           data-v2="title"
           aria-label="I am a software engineer"
         />
+        <p> 🔴🟡🟢</p>
       </C.Title>
       <C.Skills
         theme={theme}
@@ -97,13 +95,12 @@ export const Content = () => {
       >
         <p1>
           {" "}
-          Hey there👋! I am a passionate self-taught full stack developer and a
-          computer science student from California 🖥️. My passion for
+          Hey there👋! I am a passionate self-taught full stack web developer
+          and a computer science student from California 🖥️. My passion for
           development lies with dreaming up ideas and making them come true 🔨.
-          I am about building cutting-edge and elegant projects designed to
+          I am about building cutting-edge and elegant products designed to
           solve problems.
         </p1>
-        <p> 🔴🟡🟢</p>
         {/* <TextLoop interval={3000} delay={2000}>
           {[
             "Javascript  ",

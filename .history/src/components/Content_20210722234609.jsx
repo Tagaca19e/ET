@@ -100,7 +100,7 @@ export const Content = () => {
           Hey there👋! I am a passionate self-taught full stack developer and a
           computer science student from California 🖥️. My passion for
           development lies with dreaming up ideas and making them come true 🔨.
-          I am about building cutting-edge and elegant projects designed to
+          I am about building cutting-edge and elegant products designed to
           solve problems.
         </p1>
         <p> 🔴🟡🟢</p>
