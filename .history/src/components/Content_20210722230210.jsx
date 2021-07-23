@@ -31,15 +31,6 @@ const C = {
       font-size: 2.5rem;
     }
   `,
-  Skills: styled.h3`
-    ${sharedStyles};
-    font-size: 3rem;
-    margin: 5rem 0;
-    color: ${({ theme }) => theme.primaryTextColor};
-    @media only screen and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
-      font-size: 2.5rem;
-    }
-  `,
 };
 
 function Type() {
@@ -80,10 +71,8 @@ export const Content = () => {
           data-v2="title"
           aria-label="I am a software engineer"
         />
-        <p1> SKILLS </p1>
-        <br />
-      </C.Title>
-      <C.Skills>
+        <p1> Hi there </p1>
+
         <TextLoop interval={2000} delay={2000}>
           {[
             "Javascript  ",
@@ -97,7 +86,7 @@ export const Content = () => {
             <span key={text}>{text}</span>
           ))}
         </TextLoop>
-      </C.Skills>
+      </C.Title>
     </div>
   );
 };
