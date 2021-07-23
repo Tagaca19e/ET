@@ -83,6 +83,7 @@ export const Content = () => {
           aria-label="I am a software engineer"
         />
       </C.Title>
+      <br />
       <C.Skills
         theme={theme}
         data-v2="skills"

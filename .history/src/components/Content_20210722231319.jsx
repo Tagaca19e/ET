@@ -33,13 +33,11 @@ const C = {
   `,
   Skills: styled.h3`
     ${sharedStyles};
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin: 5rem 0;
     color: ${({ theme }) => theme.primaryTextColor};
-    max-width: 50rem;
-
     @media only screen and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
-      font-size: 1.5rem;
+      font-size: 2.5rem;
     }
   `,
 };
@@ -96,6 +94,8 @@ export const Content = () => {
           elegant interfaces. i take great care in the experience, architecture,
           and code quality of the things I build.
         </p1>
+        <br />
+
         <TextLoop interval={3000} delay={2000}>
           {[
             "Javascript  ",

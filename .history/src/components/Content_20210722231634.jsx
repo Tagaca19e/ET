@@ -36,8 +36,8 @@ const C = {
     font-size: 1.5rem;
     margin: 5rem 0;
     color: ${({ theme }) => theme.primaryTextColor};
-    max-width: 50rem;
-
+    max-width: 50%;
+    text-align: center;
     @media only screen and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
       font-size: 1.5rem;
     }
@@ -83,6 +83,7 @@ export const Content = () => {
           aria-label="I am a software engineer"
         />
       </C.Title>
+      <br />
       <C.Skills
         theme={theme}
         data-v2="skills"

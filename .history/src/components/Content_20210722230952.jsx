@@ -33,13 +33,11 @@ const C = {
   `,
   Skills: styled.h3`
     ${sharedStyles};
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin: 5rem 0;
     color: ${({ theme }) => theme.primaryTextColor};
-    max-width: 50rem;
-
     @media only screen and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
-      font-size: 1.5rem;
+      font-size: 2.5rem;
     }
   `,
 };
@@ -88,15 +86,10 @@ export const Content = () => {
         data-v2="skills"
         aria-label="My name is Adam Alston"
       >
-        <p1>
-          {" "}
-          hi, i'm Abhishek Naidu, a passionate self-taught full stack web
-          developer and a freelance software engineer from india. my passion for
-          software lies with dreaming up ideas and making them come true with
-          elegant interfaces. i take great care in the experience, architecture,
-          and code quality of the things I build.
-        </p1>
-        <TextLoop interval={3000} delay={2000}>
+        <p1> Technical Skills</p1>
+        <br />
+
+        <TextLoop interval={2000} delay={2000}>
           {[
             "Javascript  ",
             "Nodejs      ",
