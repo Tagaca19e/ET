@@ -89,6 +89,7 @@ export const Exprience = () => {
           I am about building cutting-edge and elegant projects designed to
           solve problems.
         </p1>
+        <p> 🔴🟡🟢</p>
       </C.Skills>
     </div>
   );
