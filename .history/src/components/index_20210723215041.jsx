@@ -3,4 +3,4 @@ export * from "./Content";
 export * from "./Buttons";
 export * from "./Footer";
 export * from "./Particles";
-export * from "./Exprience";
+export * from "./Experience";
