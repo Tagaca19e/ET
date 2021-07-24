@@ -90,19 +90,6 @@ export const Exprience = () => {
           solve problems.
         </p1>
         <p> 🔴🟡🟢</p>
-        {/* <TextLoop interval={3000} delay={2000}>
-          {[
-            "Javascript  ",
-            "Nodejs      ",
-            "React       ",
-            "Expressjs   ",
-            "React Native",
-
-            // "Cinema 4D",
-          ].map((text) => (
-            <span key={text}>{text}</span>
-          ))}
-        </TextLoop> */}
       </C.Skills>
     </div>
   );
